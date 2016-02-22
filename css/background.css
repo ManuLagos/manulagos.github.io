@@ -1,0 +1,29 @@
+.background {
+	
+	width: 100%;
+	min-height: 100%;
+	position: fixed;
+	background-color: red;
+	background-image: url("../assets/background.png");
+	background-position: center;
+
+}
+
+#name {
+	
+	text-align: center;
+	margin-top: 250px;
+	color: white;
+}
+
+#perfil {
+		
+	
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: -250px;
+
+}
