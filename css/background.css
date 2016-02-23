@@ -102,6 +102,18 @@ h2 {
 	}
 }
 
+@media (min-height: 350px, max-height: 630px){
+	#name {
+		margin-top: 5px;
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		height: 30px;
+		width: 85px;
+	}	
+}
 
 
 @media (max-height: 350px){
