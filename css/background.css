@@ -1,5 +1,5 @@
 .background {
-
+	
 	width: 100%;
 	min-height: 100%;
 	position: fixed;
@@ -10,17 +10,17 @@
 }
 
 #name {
-
+	
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 100px;
 	color: white;
-
+	font-size: 40px;
 }
 
 
 #section {
 
-	width: 860px;
+	width: 590px;
 	height: 100px;
 	margin-left: 50%;
 	transform: translateX(-50%);
@@ -28,72 +28,57 @@
 }
 
 
-#yo:hover {
-	background-color: grey;
+#yo {
+	width: 150px;
+	
 }
 
-#blog:hover {
-	background-color: grey;
+#blog {
+
+	width: 150px;
+	
 }
 
 
-#contacto:hover {
-	background-color: grey;
+#contacto {
+	width: 150px;
+	
+	
 }
+
+
 
 h2 {
 
-	width: 250px;
 	color: white;
 	display: block;
-	font-size: 2.5em;
+	font-size: 2em;
 	border: 3px solid white;
 	text-align: center;
-	height: 50px;
-	box-shadow: 0px 0px 5px white;
-	border-radius: 5px;
+	height: 40px;
 
 }
 
 
 
-@media (min-width: 900px){
-
-	  h2 {
-	 		margin-left: 30px;
-	 		float: left;
-	  }
-
-		#name {
-			font-size: 80px;
-		}
-
+@media (min-width: 600px){
+ h2 {
+ 	margin-left: 30px;
+ 	float: left;
+ }
+	
 }
 
-@media (max-width: 900px){
-
+@media (max-width: 600px){
 	h2 {
 		margin-left: 50%;
 		transform: translateX(-50%);
+
 	}
 
-	#name {
-			font-size: 60px;
-	}
+	#section {
 
-}
-
-
-@media (max-height: 350px){
-	#name {
-		margin-top: 5px;
-		font-size: 50px;
-	}
-
-	h2 {
-		font-size: 1.2em;
-		height: 30px;
-		width: 90px;
+		height: 250px;
 	}
 }
 
