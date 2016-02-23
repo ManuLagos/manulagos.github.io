@@ -12,9 +12,9 @@
 #name {
 	
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 20%;
 	color: white;
-	font-size: 40px;
+	font-size: 2.5em;
 }
 
 
@@ -24,26 +24,22 @@
 	height: 100px;
 	margin-left: 50%;
 	transform: translateX(-50%);
+	
 
 }
 
 
-#yo {
-	width: 150px;
-	
+#yo:hover {
+	background-color: grey;		
 }
 
-#blog {
-
-	width: 150px;
-	
+#blog:hover {
+	background-color: grey;
 }
 
 
-#contacto {
-	width: 150px;
-	
-	
+#contacto:hover {
+	background-color: grey;
 }
 
 
@@ -56,6 +52,7 @@ h2 {
 	border: 3px solid white;
 	text-align: center;
 	height: 40px;
+	width: 24%;
 
 }
 
@@ -63,7 +60,7 @@ h2 {
 
 @media (min-width: 600px){
  h2 {
- 	margin-left: 30px;
+ 	margin-left: 35px;
  	float: left;
  }
 	
