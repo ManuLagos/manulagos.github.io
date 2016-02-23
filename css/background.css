@@ -102,7 +102,7 @@ h2 {
 	}
 }
 
-@media (min-height: 350px, max-height: 630px){
+@media (min-height: 200px, max-height: 630px){
 	#name {
 		margin-top: 5px;
 		font-size: 50px;
