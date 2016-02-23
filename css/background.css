@@ -76,43 +76,11 @@ h2 {
 		margin-left: 50%;
 		transform: translateX(-50%);
 	}
-}
-
-@media (min-width: 500px){
 
 	#name {
-			font-size: 80px;
+			font-size: 60px;
 	}
 
-}
-
-@media (max-width: 500px){
-
-	#name {
-			font-size: 90px;
-	}
-	
-	h2 {
-		width: 190px;
-	}
-
-	#section {
-
-		height: 250px;
-	}
-}
-
-@media (min-height: 200px, max-height: 630px){
-	#name {
-		margin-top: 5px;
-		font-size: 50px;
-	}
-
-	h2 {
-		font-size: 1.2em;
-		height: 30px;
-		width: 85px;
-	}	
 }
 
 
